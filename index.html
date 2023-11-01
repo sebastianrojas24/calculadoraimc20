@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Índice de Masa Corporal (IMC)</h1>
+    </header>
+    <main>
+        <h2><a href="imc.html">¿Qué es el IMC?</a></h2>
+        <section id="calculator">
+            <h2>Calculadora de IMC</h2>
+            <form id="imc-form">
+                <label for="peso">Peso (kg):</label>
+                <input type="number" id="peso" step="0.1" required>
+                <label for="altura">Altura (cm):</label>
+                <input type="number" id="altura" step="0.1" required>
+                <button type="submit">Calcular IMC</button>
+            </form>
+            <div id="resultado">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Enlaces a bibliografías:
+            <a href="https://www.texasheart.org/heart-health/heart-information-center/topics/calculadora-del-indice-de-masa-corporal-imc/" target="_blank">Calculadora del índice de masa corporal (IMC)</a>
+            <a href="https://www.ocu.org/alimentacion/adelgazar/calculadora/indice-de-masa-corporal" target="_blank">Calculadora de Índice de Masa Corporal</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

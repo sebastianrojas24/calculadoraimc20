@@ -1,0 +1,90 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3a0404;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #151616;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 15px auto;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#imc-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#imc-form label {
+  font-weight: bold;
+}
+
+#imc-form input {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#imc-form button {
+  background-color: #151616;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#imc-form button:hover {
+  background-color: #151616;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #151616;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+}
+.container {
+  text-align: center; 
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto; 
+  max-width: 100%; 
+  height: auto; 
+}
